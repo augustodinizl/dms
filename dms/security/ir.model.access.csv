@@ -12,7 +12,7 @@ access_dms_directory_portal,dms_directory_portal,model_dms_directory,base.group_
 access_dms_directory_base_user,dms_directory_base_user,model_dms_directory,base.group_user,1,0,0,0
 access_dms_directory_user,dms_directory_user,model_dms_directory,group_dms_user,1,1,1,1
 
-blocked_user,0,0,0,0
+access_dms_blocked_file_user,0,0,0,0
 access_dms_file_public,dms_file_public,model_dms_file,base.group_public,1,0,0,0
 access_dms_file_portal,dms_file_portal,model_dms_file,base.group_portal,1,0,0,0
 access_dms_file_base_user,dms_file_base_user,model_dms_file,base.group_user,1,0,0,0
