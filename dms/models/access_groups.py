@@ -16,6 +16,7 @@ class DmsAccessGroups(models.Model):
     parent_path = fields.Char(string="Parent Path", index=True)
 
     # Permissions written directly on this group
+    perm_read = fields.Boolean(string="Read Access")
     perm_create = fields.Boolean(string="Create Access")
     perm_write = fields.Boolean(string="Write Access")
     perm_unlink = fields.Boolean(string="Unlink Access")
@@ -110,6 +111,7 @@ class DmsAccessGroups(models.Model):
         "parent_group_id.perm_inclusive_unlink",
         "parent_group_id.perm_inclusive_write",
         "parent_path",
+        "perm_read",
         "perm_create",
         "perm_unlink",
         "perm_write",
